@@ -7,6 +7,7 @@ import 'package:my_third_project/gesturedetector.dart';
 import 'package:my_third_project/opacity.dart';
 import 'package:my_third_project/pageview.dart';
 import 'package:my_third_project/radiobutton.dart';
+import 'package:my_third_project/rounded_btn_custom.dart';
 import 'package:my_third_project/row.dart';
 import 'package:my_third_project/row_column.dart';
 import 'package:my_third_project/shared_data.dart';
@@ -65,7 +66,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
-        home:DemoStreamBuilder());
+        home:RoundedBtnCustom());
 
         /*Scaffold(
             appBar: AppBar(
