@@ -32,6 +32,7 @@ import 'bottomsheet.dart';
 import 'button.dart';
 import 'circleimagewithcontainer.dart';
 import 'datepicker.dart';
+import 'demo_navigator_practice_page1.dart';
 import 'demobottomsheet.dart';
 import 'dropdown.dart';
 import 'expanded.dart';
@@ -66,7 +67,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
-        home:RoundedBtnCustom());
+        home:DemoNavigatorPraticePage1());
 
         /*Scaffold(
             appBar: AppBar(
